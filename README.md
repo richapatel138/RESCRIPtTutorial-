@@ -20,6 +20,11 @@ NOTE: Before you do any work, make sure to activate the qiime2 conda envirorment
 
 `conda activate qiime2-amplicon-2024.10`
 
+## Running "RESCRIPt_tutorial_code.py"
+RESCRIPt_tutorial_code.py combines the code outlined below, allowing you to create the same refrence database, with just one command! Before executing, make sure proper dependencies are installed. To run the script, download the python file and just run the following command: 
+
+`python RESCRIPt_tutorial_code.py`
+
 # How-To: Create a Refrence Database 
 
 To curate your own refrence database, there are many ways to retrevie refrence sequence data. Some potential databases that you can directly grab data from include: 
