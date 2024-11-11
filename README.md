@@ -1,5 +1,5 @@
 # RESCRIPt Tutorial
-This repository serves as an introduction on how to use RESCRIPt (specifically to create a custom reference genome using NCBI).
+This repository serves as an introduction on how to use RESCRIPt (specifically to create a custom reference database using NCBI).
 
 ### Acknowledgements 
 This tutorial is based on other publicaly available workflows & the RESCRIPt GitHub page, many thanks for their work: 
