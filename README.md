@@ -71,6 +71,10 @@ In this tutorial, I am using the the get-ncbi-data functionality to test making 
     * --o-evaluation fish-refseqs-classifier-evaluation.qzv: Specifies the output file for the classifier evaluation results (fish-refseqs-classifier-evaluation.qzv). This file contains a visual summary of the classifier’s performance metrics across taxonomic levels, which can be viewed in QIIME 2 View.
     * --o-observed-taxonomy fish-refseqs-predicted-taxonomy.qza: Specifies the output file for the predicted taxonomy (fish-refseqs-predicted-taxonomy.qza). This file contains the taxonomic predictions made by the classifier on the input sequences, which allows for comparison between the predicted and actual taxonomy.
 
+**Figure 1: Classifier Evaluation Results.** Using the steps above, a classifer was trained. This shows the best-case estimate of accuracy, and is an example of (fish-refseqs-classifier-evaluation.qzv) output.
+<img width="811" alt="Screenshot 2024-11-10 at 10 28 55 PM" src="https://github.com/user-attachments/assets/bb0eb179-e248-4911-a7d0-719dd61b0e1d">
+
+
 ### 5. Test on eDNA Sequences (if available)
 * If you have some eDNA sample data, you can apply your classifier:
 * `qiime feature-classifier classify-sklearn --i-classifier fish-refseqs-classifier.qza --i-reads edna-sequences.qza --o-classification edna-taxonomy.qza`
